@@ -1,13 +1,13 @@
 import React from "react";
 import IntroDescContainer from "./IntroDescContainer";
 
-import placeholder from "../../assets/icons/placeholderimg.svg";
+import introimg from "../../assets/profileimg2.jpg";
 
 export default function IntroPage() {
   return (
     <section className="intro-section">
       <IntroDescContainer />
-      <img className="intro-section-img" src={placeholder} alt="" />
+      <img className="intro-section-img" src={introimg} alt="" />
     </section>
   );
 }
